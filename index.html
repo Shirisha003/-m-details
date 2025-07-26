@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirisha Jaithwala | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        header { background: #0d6efd; color: #fff; text-align: center; padding: 50px 20px; }
+        header h1 { font-size: 3rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; }
+        nav { background: #222; display: flex; justify-content: center; }
+        nav a { color: #fff; text-decoration: none; padding: 15px; display: inline-block; }
+        nav a:hover { background: #0d6efd; }
+        section { max-width: 1100px; margin: 40px auto; padding: 20px; }
+        .skills, .experience, .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: #f8f9fa; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .card h3 { margin-bottom: 10px; color: #0d6efd; }
+        footer { text-align: center; padding: 20px; background: #222; color: #fff; }
+        .contact a { color: #0d6efd; margin: 0 10px; text-decoration: none; font-size: 1.5rem; }
+        .contact a:hover { color: #fff; }
+        @media(max-width:768px) {
+            header h1 { font-size: 2rem; }
+            nav { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Shirisha Jaithwala</h1>
+    <p>Front-End Developer | AEM Specialist</p>
+    <a href="#projects" style="background:#fff; color:#0d6efd; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:bold;">View My Work</a>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Highly skilled and dedicated front-end developer with expertise in HTML, CSS, JavaScript, and Adobe Experience Manager (AEM). Passionate about creating seamless, responsive, and visually appealing digital experiences.
+    </p>
+    <p><strong>Email:</strong> shirisha6381@gmail.com</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="card"><h3>HTML / CSS</h3></div>
+        <div class="card"><h3>JavaScript / jQuery</h3></div>
+        <div class="card"><h3>Adobe Experience Manager (AEM)</h3></div>
+        <div class="card"><h3>Bitbucket, JIRA</h3></div>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Work Experience</h2>
+    <div class="experience">
+        <div class="card">
+            <h3>Bristol Myers Squibb | AEM Frontend Developer</h3>
+            <p>Apr 2024 - Present</p>
+            <p>Developing AEM components, integrating with backend, and ensuring quality through unit testing.</p>
+        </div>
+        <div class="card">
+            <h3>Accenture | Digital Tech Developer Analyst</h3>
+            <p>Jul 2023 - Mar 2024</p>
+            <p>Created 20+ AEM components, handled deployments using Bitbucket, managed tasks in JIRA.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>AEM Components</h3>
+            <p>Developed reusable AEM components for enterprise-level websites using HTML, CSS, JS.</p>
+        </div>
+        <div class="card">
+            <h3>Responsive Landing Page</h3>
+            <p>Built a fully responsive landing page using HTML, CSS, and Bootstrap.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <a href="mailto:shirisha6381@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com"><i class="fab fa-github"></i></a>
+</section>
+
+<footer>
+    <p>&copy; 2025 Shirisha Jaithwala | Portfolio</p>
+</footer>
+
+</body>
+</html>
